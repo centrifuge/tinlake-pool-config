@@ -1,0 +1,68 @@
+[{ 
+  "env":"production",
+  "startblock": 10002000,
+  "addresses": {
+    "ROOT_CONTRACT": "0xf8b4ef7781ba8e1b3df6370f71d526d00aad1ee2",
+    "TINLAKE_CURRENCY": "0x6b175474e89094c44da98b954eedeac495271d0f",
+    "JUNIOR_OPERATOR": "0x244B20CB948EBA5F0f3fBabBf0B82CEFc1E559C8",
+    "JUNIOR": "0xd5C9A6f250FE21D1e39D4A74E0FA3b69192Bd889",
+    "JUNIOR_TOKEN": "0xcebba0dB0834610ea34D5e4cCca62Df3382b774A",
+    "SENIOR": "0x4c1bfB4e3ecBd6200358038e3F560AB6dEe9bCb6",
+    "SENIOR_TOKEN": "0xD5a8c4Ba74438AaAcf108095E7697F1d295266d8",
+    "SENIOR_OPERATOR": "0x931ab259c04300f52eee1be2f4d24aa450446de7",
+    "DISTRIBUTOR": "0x6AfC4eEf4ce63623a6FcdBd0a0e3c17d24d32ABA",
+    "ASSESSOR": "0x1abA642c1AaC9F8dA36f7DF73EdA4Ca73E054084",
+    "TITLE": "0xb2566e79F72CE620Ede1Fae1DAB3B34FB502A319",
+    "PILE": "0x95b74eF13fF280A89cE3d7bBEfc822c210e9939F",
+    "SHELF": "0x454C86Ba7e0CBd959CFa76aA2DB799F9D7a816e4",
+    "CEILING": "0xaB351D3e54c975BFA0c2edaFB6fAB03F94762111",
+    "COLLECTOR": "0x50eAb316075d4E8acA08C76aFc7dDd8CB26e87A7",
+    "THRESHOLD": "0xaB351D3e54c975BFA0c2edaFB6fAB03F94762111",
+    "PRICE_POOL": "0x7200BF697426e88F31b9446193A207fcAc1A4CbA",
+    "NFT_FEED": "0xaB351D3e54c975BFA0c2edaFB6fAB03F94762111"
+  },
+  "contractConfig":{
+    "JUNIOR_OPERATOR":"ALLOWANCE_OPERATOR",
+    "SENIOR_OPERATOR":"PROPORTIONAL_OPERATOR"
+  },
+  "name":"Consolfreight Series 1",
+  "shortName":"ConsolFreight 1",
+  "description":"<h4>Asset Originator Details<\/h4><p>The following information was provided by the asset originator.<\/p><a href=\"https:\/\/www.consolfreight.io\/\" target=\"_blank\"><img src=\"https:\/\/ctrf-tk-ppr.s3-us-west-1.amazonaws.com\/consolfreight_logo.png\" width=\"275px\" \/><\/a><p>ConsolFreight is launching a Tinlake pool to fund freight forwarding invoices. We are a SaaS freight forwarding technology provider that advances working capital finance to freight forwarders and collects from shippers. Our services expand from offering a trade finance marketplace to procurement of logistics services and digital contract management solutions. The ConsolFreight ecosystem currently counts on several partnerships with renowned freight forwarding networks and has secured more than 600 freight forwarders as exclusive trade lane providers.<\/p><h4>Pool Details<\/h4><p><strong>Asset Originator:<\/strong> Consol Freight LLC<br \/><strong>Collateral:<\/strong> Freight Forwarding Invoices<br \/><strong>Average Invoice Size:<\/strong> $5,000<br \/><strong>Maturity Date:<\/strong> 30 & 45 day invoices<br \/><strong>Issuer:<\/strong> ConsolFreight Pilot LLC<\/p><p><strong>Contact the asset originator<\/strong><br \/>Interested in investing or want to learn more?<br \/><a href=\"https:\/\/www.consolfreight.io\/\" target=\"_blank\">consolfreight.io<\/a><br \/><a href=\"mailto:messages@consolfreight.com\" target=\"_blank\">messages@consolfreight.com<\/a><\/p>",
+  "investHtml":"<p>You will need to get onboarded with the asset originator to start investing in this pool.</p><p>Please contact Consolfreight with an email to <a href=\"mailto:messages@consolfreight.com\" target=\"_blank\">messages@consolfreight.com<\/a> for further information.</p>",
+  "asset":"Invoice",
+  "network":"mainnet"
+},
+{ 
+  "env": "production",
+  "startblock": 10103234,
+  "addresses": {
+    "ROOT_CONTRACT": "0x90abc0adb789111b4b865fdb3350b14a6e78794e",
+    "TINLAKE_CURRENCY": "0x6b175474e89094c44da98b954eedeac495271d0f",
+    "JUNIOR_OPERATOR": "0x050CB3970b29Df116d52C614ce9f2e0a8728E9c9",
+    "JUNIOR": "0x3b494d2363AdBf50224c0b5BFB430D5F396495e5",
+    "JUNIOR_TOKEN": "0x6301C2de9600605F9e4c7E1b6E6f6005c0f7E0d5",
+    "SENIOR": "0xF49599f60BaD647b9f82b7C5eF7736Af13Ff89ac",
+    "SENIOR_TOKEN": "0xC966261FA0ca9850fe82799Fe3eCb0A8aCfC5479",
+    "SENIOR_OPERATOR": "0xbf6d1ca31e30533e6d1e6aac86340026829b79c2",
+    "DISTRIBUTOR": "0xdBAB36fc624693BeDC42fe4e3B55bc719458C64b",
+    "ASSESSOR": "0x41203B4C2b497334c01F9Ce6f88AB42bD485199d",
+    "TITLE": "0x3F38E8e4f5Eeed41798e0b7b74459BB8DecFB680",
+    "PILE": "0xA6bF7D7779383f6e078D0969F5B85B391994FCeD",
+    "SHELF": "0x3d0e477F328E48dAA315aA503a6eDf5B67f2d387",
+    "CEILING": "0xf7bE772A892340Cf28B7e2b4e7b48564F66D1a63",
+    "COLLECTOR": "0x7AfCe9DC5DCDF4B7a51209dc8DCCC618dF4A07a9",
+    "THRESHOLD": "0xf7bE772A892340Cf28B7e2b4e7b48564F66D1a63",
+    "PRICE_POOL": "0xb484dA3636c9579EE161D26ef68f31E2308B65c5",
+    "NFT_FEED": "0xf7bE772A892340Cf28B7e2b4e7b48564F66D1a63"
+  },
+  "contractConfig":{
+    "JUNIOR_OPERATOR":"ALLOWANCE_OPERATOR",
+    "SENIOR_OPERATOR":"PROPORTIONAL_OPERATOR"
+ },
+ "name":"Paperchain Pilot",
+ "description":"<h4>Asset Originator Details<\/h4><p>The following information was provided by the asset originator.<\/p><a href=\"https:\/\/www.paperchain.io\/\" target=\"_blank\"><img src=\"https:\/\/storage.googleapis.com\/tinlake\/68747470733a2f2f696d616765732e7a656e68756275736572636f6e74656e742e636f6d2f3563393232313830636639633563316133353061373438622f35323365653063322d613739622d343237382d396338642d303731333935323466303265.png\" width=\"275px\" \/><\/a><p>Paperchain is launching a Tinlake pool to fund music streaming revenues. We provide an easy and fast way for artists and media companies to access their streaming revenue. Operating at the intersection of media, finance, and technology, we connect to the largest media streaming platforms and offer creators a non-dilutive funding model via innovative use of media data streams & investment products. We work with Merlin, a collective licensing aggregator that represents thousands of labels worldwide negotiating licensing agreements with leading streaming platforms such as Spotify.<\/p><h4>Pool Details<\/h4><p><strong>Asset Originator:<\/strong> Paperchain Inc.<br \/><strong>Collateral:<\/strong> Music Streaming Invoices from Spotify<br \/><strong>Average Invoice Size:<\/strong> $25,000<br \/><strong>Maturity Date:<\/strong> 60 days invoices<br \/><strong>Issuer:<\/strong> Paperchain Inc, Delaware<p><strong>Contact the asset originator<\/strong><br \/>Interested in investing or want to learn more?<br \/><a href=\"https:\/\/www.paperchain.io\/\" target=\"_blank\">paperchain.io<\/a><br \/><a href=\"mailto:info@paperchain.io\" target=\"_blank\">info@paperchain.io<\/a><\/p>",
+ "investHtml":"<p>You will need to get onboarded with the asset originator to start investing in this pool.</p><p>Please contact Paperchain with an email to <a href=\"mailto:info@paperchain.io\" target=\"_blank\">info@paperchain.io<\/a> for further information.</p>",
+ "asset":"Invoice",
+ "network":"mainnet"
+}
+]
