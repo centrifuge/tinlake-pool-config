@@ -68,5 +68,41 @@
  "investHtml":"<p>You will need to get onboarded with the asset originator to start investing in this pool.</p><p>Please contact Paperchain with an email to <a href=\"mailto:info@paperchain.io\" target=\"_blank\">info@paperchain.io<\/a> for further information.</p>",
  "asset":"Invoice",
  "network":"mainnet"
+},
+{ 
+  "env":"production",
+  "startblock": 10304149,
+  "addresses": {
+    "ROOT_CONTRACT": "0x0b985e7c5811c368528a0fc990455f4b448f7d77",
+    "TINLAKE_CURRENCY": "0x6b175474e89094c44da98b954eedeac495271d0f",
+    "JUNIOR_OPERATOR": "0xb4EF95a00EcEe451f386ed5424D01D2B3A87B378",
+    "JUNIOR": "0x0e5aB6B6c64ee8F604A34C0Fc978916EEA1aC318",
+    "JUNIOR_TOKEN": "0x1fF78732d74F6DC9DC527e2fb9DF3CaDC77EAD31",
+    "SENIOR": "0xaE1845A50316FB6e571c569E78338C76D715A899",
+    "SENIOR_TOKEN": "0x39a8a2a00f23917b9102C75B1783D96Ca6af9f54",
+    "SENIOR_OPERATOR": "0x6b08CEef7C3cF00dC652DFB2522F401309678b7A",
+    "DISTRIBUTOR": "0x2BF60Ac1546F6beB6824D57506829f662A9D047d",
+    "ASSESSOR": "0x78BAe79C9867BBE393C90cB13401CA1217A2fBEe",
+    "TITLE": "0xE0D6DD8EBacD5baf9B26CE769f8ec7103380897b",
+    "PILE": "0x27865916b3E6208b54EB7B3C481b3157e0Ac1B0E",
+    "SHELF": "0x56bA49EA5F0930d80D14bF077D4bBeE0B398bB06",
+    "CEILING": "0x7cDC05188B81E2cb11c6332b460233e654d8A3D4",
+    "COLLECTOR": "0x6269Bd6c9efe0F2a65780F543e6931D4b904900b",
+    "THRESHOLD": "0x7cDC05188B81E2cb11c6332b460233e654d8A3D4",
+    "PRICE_POOL": "0x3438b855Bb48D04715B43437C5F94eedC6029E81",
+    "NFT_FEED": "0x7cDC05188B81E2cb11c6332b460233e654d8A3D4",
+    "ACTIONS": "0x39e9b206dd1e8f9849f11e8ba6bb045e8321a239",
+    "PROXY_REGISTRY": "0xc9045c815bf123ad12ea75b9a7c579c1e05051f9"
+   },
+  "contractConfig":{
+    "JUNIOR_OPERATOR":"ALLOWANCE_OPERATOR",
+    "SENIOR_OPERATOR":"PROPORTIONAL_OPERATOR"
+  },
+  "name":"Consolfreight Series 2",
+  "shortName":"ConsolFreight 2",
+  "description":"<h4>Asset Originator Details<\/h4><p>The following information was provided by the asset originator.<\/p><a href=\"https:\/\/www.consolfreight.io\/\" target=\"_blank\"><img src=\"https:\/\/ctrf-tk-ppr.s3-us-west-1.amazonaws.com\/consolfreight_logo.png\" width=\"275px\" \/><\/a><p>ConsolFreight is launching a Tinlake pool to fund freight forwarding invoices. We are a SaaS freight forwarding technology provider that advances working capital finance to freight forwarders and collects from shippers. Our services expand from offering a trade finance marketplace to procurement of logistics services and digital contract management solutions. The ConsolFreight ecosystem currently counts on several partnerships with renowned freight forwarding networks and has secured more than 600 freight forwarders as exclusive trade lane providers.<\/p><h4>Pool Details<\/h4><p><strong>Asset Originator:<\/strong> Consol Freight LLC<br \/><strong>Collateral:<\/strong> Freight Forwarding Invoices<br \/><strong>Average Invoice Size:<\/strong> $5,000<br \/><strong>Maturity Date:<\/strong> 30 & 45 day invoices<br \/><strong>Issuer:<\/strong> ConsolFreight Pilot LLC<\/p><p><strong>Contact the asset originator<\/strong><br \/>Interested in investing or want to learn more?<br \/><a href=\"https:\/\/www.consolfreight.io\/\" target=\"_blank\">consolfreight.io<\/a><br \/><a href=\"mailto:messages@consolfreight.com\" target=\"_blank\">messages@consolfreight.com<\/a><\/p>",
+  "investHtml":"<p>You will need to get onboarded with the asset originator to start investing in this pool.</p><p>Please contact Consolfreight with an email to <a href=\"mailto:messages@consolfreight.com\" target=\"_blank\">messages@consolfreight.com<\/a> for further information.</p>",
+  "asset":"Invoice",
+  "network":"mainnet"
 }
 ]
