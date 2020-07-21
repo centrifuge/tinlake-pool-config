@@ -104,5 +104,42 @@
   "investHtml":"<p>You will need to get onboarded with the asset originator to start investing in this pool.</p><p>Please contact Consolfreight with an email to <a href=\"mailto:messages@consolfreight.com\" target=\"_blank\">messages@consolfreight.com<\/a> for further information.</p>",
   "asset":"Invoice",
   "network":"mainnet"
+},
+{
+  "env":"production",
+  "startblock": 10498700,
+  "addresses":
+   {
+    "ROOT_CONTRACT": "0xeb33ab19d17d62950b16e843005fcdda62d5f551",
+    "TINLAKE_CURRENCY": "0x6b175474e89094c44da98b954eedeac495271d0f",
+    "JUNIOR_OPERATOR": "0xa5Fa0717bBE6B9691268986F2424660C1B557Bf1",
+    "JUNIOR": "0xC93728C2a5E208f012a136Ffa7F7e05F8Bd3c8f4",
+    "JUNIOR_TOKEN": "0xeC90Bcbb3e8FA1ABB9Fd2983005282baE6f02f5d",
+    "SENIOR": "0x05791d754eF5788532287De5a730645F2Bbcf78F",
+    "SENIOR_TOKEN": "0x1AD9A8eFDE1b2fA2773C0632e4FC5BF217aa205e",
+    "SENIOR_OPERATOR": "0x44B4b012d4716CC45945D4cb4d4aC25871416583",
+    "DISTRIBUTOR": "0x3e18FaD844cfc0c669feDBe3ada5173401af36D1",
+    "ASSESSOR": "0xfee2B69EdDd98397b6cbF816e805AD52bd4407c7",
+    "TITLE": "0x8Ce9C232441775308717bF9873621A27819389d4",
+    "PILE": "0x1f1eA72b9a1EDf799f27eA3a5D18262e92A845a6",
+    "SHELF": "0x5Fb8479D021E5881A4874Fdf15E549355c57B885",
+    "CEILING": "0x3fbCddeE1F5efC545828560869353287eC901c04",
+    "COLLECTOR": "0x8074b3850530F7f66e039652A8c54eec2E8B6Bec",
+    "THRESHOLD": "0x3fbCddeE1F5efC545828560869353287eC901c04",
+    "PRICE_POOL": "0x1A92818eEf8A77FBaAb027F16F16DEe67A92b56D",
+    "NFT_FEED": "0x3fbCddeE1F5efC545828560869353287eC901c04",
+    "ACTIONS": "0x39e9b206dd1e8f9849f11e8ba6bb045e8321a239",
+    "PROXY_REGISTRY": "0xc9045c815bf123ad12ea75b9a7c579c1e05051f9"
+  },
+  "contractConfig":{
+    "JUNIOR_OPERATOR":"ALLOWANCE_OPERATOR",
+    "SENIOR_OPERATOR":"ALLOWANCE_OPERATOR"
+  },
+  "name":"New Silver 1",
+  "shortName":"NewSilver 1",
+  "description":"<h4>Asset Originator Details<\/h4><p>The following information was provided by the Asset Originator.<\/p><a href=\"https:\/\/www.newsilver.com\/\" target=\"_blank\"><img src=\"https:\/\/ctrf-tk-ppr.s3-us-west-1.amazonaws.com\/consolfreight_logo.png\" width=\"275px\" \/><\/a><p>New Silver (NS)  is launching a Tinlake pool to finance a portfolio of twelve to twenty four month real estate bridge loans that are extended to real estate developers. NS is a technology enabled non-bank direct lender providing real estate-backed re-financing and “renovate and rehab” financing for the United States on single-family residential and small balance commercial assets. NS primarily targets significant value-add transactions in non-rural areas in the North Eastern US.<\/p><h4>Pool Details<\/h4><p><strong>Asset Originator:<\/strong> New Silver Lending LLC<br \/><strong>Collateral:<\/strong> US-based residential real estate<br \/><strong>Average Invoice Size:<\/strong> $145,000<br \/><strong>Maturity Date:<\/strong> 12 to 24 months<br \/><strong>Issuer:<\/strong> New Silver Pilot LLC<\/p><p><strong>Contact the Asset Originator<\/strong><br \/>Interested in investing or want to learn more?<br \/><a href=\"https:\/\/www.newsilver.com\/\" target=\"_blank\">newsilver.com<\/a><br \/><a href=\"mailto:sales@newsilver.com\" target=\"_blank\">sales@newsilver.com<\/a><\/p>",
+  "investHtml":"<p>You will need to get onboarded with the asset originator to start investing in this pool.</p><p>Please contact New Silver with an email to <a href=\"mailto:sales@newsilver.com\" target=\"_blank\">sales@newsilver.com<\/a> for further information.</p>",
+  "asset":"Real estate bridge loans",
+  "network":"mainnet"
 }
 ]
