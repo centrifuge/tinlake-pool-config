@@ -144,7 +144,7 @@
   },
   {
     "env": "production",
-    "startblock": 10304149,
+    "startblock": 10595436,
     "addresses": {
       "ROOT_CONTRACT": "0xe02d16927c7f73e48dd7aef4c86fa9aaedfe8abf",
       "TINLAKE_CURRENCY": "0x6b175474e89094c44da98b954eedeac495271d0f",
