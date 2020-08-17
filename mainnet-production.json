@@ -177,5 +177,41 @@
     "investHtml": "<p>You will need to get onboarded with the asset originator to start investing in this pool.</p><p>Please contact Consolfreight with an email to <a href=\"mailto:messages@consolfreight.com\" target=\"_blank\">messages@consolfreight.com</a> for further information.</p>",
     "asset": "Invoice & Cargo",
     "network": "mainnet"
+  },
+  {
+    "env": "production",
+    "startblock": 10661341,
+    "addresses": {
+      "ROOT_CONTRACT": "0xa5caefbaa3902c3567ec2ba650a7ee4b19ea0d28",
+      "TINLAKE_CURRENCY": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "JUNIOR_OPERATOR": "0xB61aef42458943D6bA3f8E9Fb0394Bf0582B23f8",
+      "JUNIOR": "0x5493598d86e2f8cbC78FacF42982746491880628",
+      "JUNIOR_TOKEN": "0xE631EFBAC8BcFD379D37311D864A08f174333f05",
+      "SENIOR": "0x473bd32F890855138ed085582D80099F11aD7767",
+      "SENIOR_TOKEN": "0x75358396f4fcF60A1691527E3C96Bf47B9DAf4F6",
+      "SENIOR_OPERATOR": "0x4dECb7e9C3e4148A5d281B4522F1b22Ca77423BD",
+      "DISTRIBUTOR": "0xeF25AbCE001BE8E4c9a66038035c7C28A273EA4d",
+      "ASSESSOR": "0xAa298fD9206A4d66346124b6358fc4FC803398e5",
+      "TITLE": "0x3a577e0281bc75de94e0532c68BF01F939A2E561",
+      "PILE": "0x9c623E8864C9Fcd56a2b87826198687Ec9d03665",
+      "SHELF": "0x406504500aC3eFBa725f14b6C7ac1e0047ECf520",
+      "CEILING": "0x7b01145A8d736207ac46Bdb831e7759264b05E6b",
+      "COLLECTOR": "0xa73477D701c1cE37A8Ca6Db21C9B7a006049c867",
+      "THRESHOLD": "0x7b01145A8d736207ac46Bdb831e7759264b05E6b",
+      "PRICE_POOL": "0x73451360fB99ffbd5AeFD9b11e4717F533FaE6EA",
+      "NFT_FEED": "0x7b01145A8d736207ac46Bdb831e7759264b05E6b",
+      "ACTIONS": "0x39e9b206dd1e8f9849f11e8ba6bb045e8321a239",
+      "PROXY_REGISTRY": "0xc9045c815bf123ad12ea75b9a7c579c1e05051f9"
+    },
+    "contractConfig": {
+      "JUNIOR_OPERATOR": "ALLOWANCE_OPERATOR",
+      "SENIOR_OPERATOR": "PROPORTIONAL_OPERATOR"
+    },
+    "name": "Harbor Trade Credit Series 1",
+    "shortName": "Harbor Trade 1",
+    "description": "<h4>Asset Originator Details</h4><p>The following information was provided by the Asset Originator.</p><a href=\"https://harbortradecredit.com/\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/centrifuge/tinlake-pool-config/master/logos/htc.png\" width=\"275px\" /></a><p>Harbor is a fintech firm focused on Supply Chain Finance (SCF) and working capital solutions to improve the cash conversion cycle. Harbor’s trade payable financing programs allow for early payments to suppliers so that buyers can optimize their own liquidity through trade credit. Harbor is launching Harbor Trade Credit Series One (HTC1), a Tinlake pool to finance a shipment of flight simulator hardware devices from a manufacturer in China (Ryder Industries) to the designer/distributor (Snakebyte), which will sell this product to many of the leading video game hardware retailers including Amazon, Walmart, and Gamestop. Harbor’s counterparty will be Snakebyte, which will pay in 60 days.</p><h4>Pool Details</h4><p><strong>Asset Originator:</strong> Harbor Trade Credit, LLC<br /><strong>Issuer:</strong> Harbor Trade Credit Series LLC<br /><strong>Collateral:</strong> Trade Receivables<br /><strong>Average Loan Size:</strong> $300,000<br /><strong>Maturity Date:</strong> 60 days<br /><strong>Issuer:</strong> ConsolFreight Pilot LLC</p><p><strong>Contact the Asset Originator</strong><br />Interested in investing or want to learn more?<br /><a href=\"https://harbortradecredit.com/\" target=\"_blank\">harbortradecredit.com</a><br /><a href=\"mailto:info@harbortradecredit.com\" target=\"_blank\">info@harbortradecredit.com</a></p>",
+    "investHtml": "<p>You will need to get onboarded with the asset originator to start investing in this pool.</p><p>Please contact Harbor with an email to <a href=\"mailto:info@harbortradecredit.com\" target=\"_blank\">info@harbortradecredit.com</a> for further information.</p>",
+    "asset": "Trade Finance",
+    "network": "mainnet"
   }
 ]
