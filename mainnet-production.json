@@ -209,18 +209,16 @@
     },
     "name": "Harbor Trade Credit Series 1",
     "shortName": "Harbor Trade 1",
-    "info": {
-      "description": "Harbor is a fintech firm focused on Supply Chain Finance (SCF) and working capital solutions to improve the cash conversion cycle. Harbor’s trade payable financing programs allow for early payments to suppliers so that buyers can optimize their own liquidity through trade credit. Harbor is launching Harbor Trade Credit Series One (HTC1), a Tinlake pool to finance a shipment of flight simulator hardware devices from a manufacturer in China (Ryder Industries) to the designer/distributor (Snakebyte), which will sell this product to many of the leading video game hardware retailers including Amazon, Walmart, and Gamestop. Harbor’s counterparty will be Snakebyte, which will pay in 60 days.",
-      "logo": "https://raw.githubusercontent.com/centrifuge/tinlake-pool-config/master/logos/htc.png",
-      "website": "https://harbortradecredit.com/",
-      "email": "info@harbortradecredit.com",
-      "details": {
-        "Asset Originator": "Harbor Trade Credit, LLC",
-        "Issuer": "Harbor Trade Credit Series LLC",
-        "Collateral": "Trade Receivables",
-        "Average Loan Size": "$300,000",
-        "Maturity Date": "60 days"
-      }
+    "text": "Harbor is a fintech firm focused on Supply Chain Finance (SCF) and working capital solutions to improve the cash conversion cycle. Harbor’s trade payable financing programs allow for early payments to suppliers so that buyers can optimize their own liquidity through trade credit. Harbor is launching Harbor Trade Credit Series One (HTC1), a Tinlake pool to finance a shipment of flight simulator hardware devices from a manufacturer in China (Ryder Industries) to the designer/distributor (Snakebyte), which will sell this product to many of the leading video game hardware retailers including Amazon, Walmart, and Gamestop. Harbor’s counterparty will be Snakebyte, which will pay in 60 days.",
+    "logo": "https://raw.githubusercontent.com/centrifuge/tinlake-pool-config/master/logos/htc.png",
+    "website": "https://harbortradecredit.com/",
+    "email": "info@harbortradecredit.com",
+    "details": {
+      "Asset Originator": "Harbor Trade Credit, LLC",
+      "Issuer": "Harbor Trade Credit Series LLC",
+      "Collateral": "Trade Receivables",
+      "Average Loan Size": "$300,000",
+      "Maturity Date": "60 days"
     },
     "asset": "Trade Finance",
     "network": "mainnet"
