@@ -209,8 +209,19 @@
     },
     "name": "Harbor Trade Credit Series 1",
     "shortName": "Harbor Trade 1",
-    "description": "<h4>Asset Originator Details</h4><p>The following information was provided by the Asset Originator.</p><a href=\"https://harbortradecredit.com/\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/centrifuge/tinlake-pool-config/master/logos/htc.png\" width=\"275px\" /></a><p>Harbor is a fintech firm focused on Supply Chain Finance (SCF) and working capital solutions to improve the cash conversion cycle. Harbor’s trade payable financing programs allow for early payments to suppliers so that buyers can optimize their own liquidity through trade credit. Harbor is launching Harbor Trade Credit Series One (HTC1), a Tinlake pool to finance a shipment of flight simulator hardware devices from a manufacturer in China (Ryder Industries) to the designer/distributor (Snakebyte), which will sell this product to many of the leading video game hardware retailers including Amazon, Walmart, and Gamestop. Harbor’s counterparty will be Snakebyte, which will pay in 60 days.</p><h4>Pool Details</h4><p><strong>Asset Originator:</strong> Harbor Trade Credit, LLC<br /><strong>Issuer:</strong> Harbor Trade Credit Series LLC<br /><strong>Collateral:</strong> Trade Receivables<br /><strong>Average Loan Size:</strong> $300,000<br /><strong>Maturity Date:</strong> 60 days<br /><strong>Issuer:</strong> ConsolFreight Pilot LLC</p><p><strong>Contact the Asset Originator</strong><br />Interested in investing or want to learn more?<br /><a href=\"https://harbortradecredit.com/\" target=\"_blank\">harbortradecredit.com</a><br /><a href=\"mailto:info@harbortradecredit.com\" target=\"_blank\">info@harbortradecredit.com</a></p>",
-    "investHtml": "<p>You will need to get onboarded with the asset originator to start investing in this pool.</p><p>Please contact Harbor with an email to <a href=\"mailto:info@harbortradecredit.com\" target=\"_blank\">info@harbortradecredit.com</a> for further information.</p>",
+    "info": {
+      "description": "Harbor is a fintech firm focused on Supply Chain Finance (SCF) and working capital solutions to improve the cash conversion cycle. Harbor’s trade payable financing programs allow for early payments to suppliers so that buyers can optimize their own liquidity through trade credit. Harbor is launching Harbor Trade Credit Series One (HTC1), a Tinlake pool to finance a shipment of flight simulator hardware devices from a manufacturer in China (Ryder Industries) to the designer/distributor (Snakebyte), which will sell this product to many of the leading video game hardware retailers including Amazon, Walmart, and Gamestop. Harbor’s counterparty will be Snakebyte, which will pay in 60 days.",
+      "logo": "https://raw.githubusercontent.com/centrifuge/tinlake-pool-config/master/logos/htc.png",
+      "website": "https://harbortradecredit.com/",
+      "email": "info@harbortradecredit.com",
+      "details": {
+        "Asset Originator": "Harbor Trade Credit, LLC",
+        "Issuer": "Harbor Trade Credit Series LLC",
+        "Collateral": "Trade Receivables",
+        "Average Loan Size": "$300,000",
+        "Maturity Date": "60 days"
+      }
+    },
     "asset": "Trade Finance",
     "network": "mainnet"
   }
