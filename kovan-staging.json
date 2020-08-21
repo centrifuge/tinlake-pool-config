@@ -70,5 +70,40 @@
     "asset": "Invoice",
     "investHtml": "<p>You will need to get onboarded with the asset originator to start investing in this pool.</p><p>Please contact with an email to <a href=\"mailto:info@example.com\" target=\"_blank\">info@example.com<\/a> for further information.</p>",
     "network": "kovan"
+  },
+  {
+    "env": "staging",
+    "startblock": 20380418,
+    "addresses": {
+      "ROOT_CONTRACT": "0x74cc21bbc8bbf19e2ab3e68c810a4316bd715d76",
+      "TINLAKE_CURRENCY": "0xe689a4f88e332b016f6800259355e23ef6df338a",
+      "JUNIOR_OPERATOR": "0x88e541977F998D5Ba8977b96e6F99E7448FC88a9",
+      "JUNIOR": "0x3922c158576b7D9d0819958FC5EcEa1c63Aa1B39",
+      "JUNIOR_TOKEN": "0xda4c1D3C7609Fa8981A39A1812036d1A7Ca75397",
+      "SENIOR": "0xbb57a86a8655f4DEd6beCeff06127a55040f2F2c",
+      "SENIOR_TOKEN": "0x9894C9382786f4025acF2B2e06668707e93133Ca",
+      "SENIOR_OPERATOR": "0xAaF56f40d2888edDDE70F2DB54FAb1B1de9c34c9",
+      "DISTRIBUTOR": "0x3f531247832993d032D094D2f5261802444856ED",
+      "ASSESSOR": "0x1C23A1DeB57F034868E8C384880F4c4d1893C8dD",
+      "TITLE": "0x66258d082311b02E0c573D9f7cD9A9CC72DF0E02",
+      "PILE": "0x6FDB74C1D6C84640b6F62E3ca95D04A8A4A849aA",
+      "SHELF": "0x6DEe02B3C14BB9CaecF6026551A2053bac203B75",
+      "CEILING": "0xc63807020f7629F341D7042A9bF12d84355d4D8E",
+      "COLLECTOR": "0xD9F7326D56446745fD3e77c7f6D536C13048239f",
+      "THRESHOLD": "0xc63807020f7629F341D7042A9bF12d84355d4D8E",
+      "PRICE_POOL": "0xc63807020f7629F341D7042A9bF12d84355d4D8E",
+      "NFT_FEED": "0xc63807020f7629F341D7042A9bF12d84355d4D8E",
+      "ACTIONS":"0x60cc4a2868559e513112f0742e6f546d339ea17b",
+      "PROXY_REGISTRY": "0x99a31c86d95e907dcf0001857b8aa83456e746c1"
+    },
+    "contractConfig": {
+      "JUNIOR_OPERATOR": "ALLOWANCE_OPERATOR",
+      "SENIOR_OPERATOR": "ALLOWANCE_OPERATOR"
+    },
+    "name": "Kovan NAV Feed",
+    "description": "<h4>Asset Originator Details</h4><p>This section displays information provided by the Asset Originator, such as a description of the business model</p><h4>Pool Details (Sample Data)</h4><p><strong>Asset Originator:</strong> Kovan NAV Feed LLC<br /><strong>Collateral:</strong> Simplified invoices<br /><strong>Average Invoice Size:</strong> $1,000<br /><strong>Maturity Date:</strong> 30 day invoices<br /><strong>Issuer:</strong> Kovan NAV Feed LLC</p>",
+    "asset": "Invoice",
+    "investHtml": "<p>You will need to get onboarded with the asset originator to start investing in this pool.</p><p>Please contact with an email to <a href=\"mailto:info@example.com\" target=\"_blank\">info@example.com</a> for further information.</p>",
+    "network": "kovan"
   }
 ]
