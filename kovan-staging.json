@@ -93,7 +93,7 @@
       "THRESHOLD": "0xc63807020f7629F341D7042A9bF12d84355d4D8E",
       "PRICE_POOL": "0xc63807020f7629F341D7042A9bF12d84355d4D8E",
       "NFT_FEED": "0xc63807020f7629F341D7042A9bF12d84355d4D8E",
-      "ACTIONS":"0x60cc4a2868559e513112f0742e6f546d339ea17b",
+      "ACTIONS": "0x60cc4a2868559e513112f0742e6f546d339ea17b",
       "PROXY_REGISTRY": "0x99a31c86d95e907dcf0001857b8aa83456e746c1"
     },
     "contractConfig": {
@@ -104,6 +104,24 @@
     "description": "<h4>Asset Originator Details</h4><p>This section displays information provided by the Asset Originator, such as a description of the business model</p><h4>Pool Details (Sample Data)</h4><p><strong>Asset Originator:</strong> Kovan NAV Feed LLC<br /><strong>Collateral:</strong> Simplified invoices<br /><strong>Average Invoice Size:</strong> $1,000<br /><strong>Maturity Date:</strong> 30 day invoices<br /><strong>Issuer:</strong> Kovan NAV Feed LLC</p>",
     "asset": "Invoice",
     "investHtml": "<p>You will need to get onboarded with the asset originator to start investing in this pool.</p><p>Please contact with an email to <a href=\"mailto:info@example.com\" target=\"_blank\">info@example.com</a> for further information.</p>",
+    "network": "kovan"
+  },
+  {
+    "env": "staging",
+    "name": "Upcoming Kovan Pool 1",
+    "shortName": "Upcoming Kovan 1",
+    "assetOriginatorName": "Upcoming Kovan Pool",
+    "text": "This pool is going to be launched in the future.",
+    "logo": "https://raw.githubusercontent.com/centrifuge/tinlake-pool-config/master/logos/tinlake.png",
+    "website": "https://tinlake.centrifuge.io/",
+    "email": "tinlake@centrifuge.io",
+    "details": {
+      "Asset Originator": "Upcoming Kovan Pool",
+      "Collateral": "Invoice",
+      "Average Loan Size": "$1,000",
+      "Maturity Date": "30 days"
+    },
+    "asset": "Invoice",
     "network": "kovan"
   }
 ]
