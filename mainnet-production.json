@@ -232,7 +232,7 @@
   },
   {
     "env": "production",
-    "name": "Kickfurther Series One",
+    "name": "Kickfurther Series 1",
     "shortName": "Kickfurther 1",
     "slug": "kickfurther-1",
     "assetOriginatorName": "Kickfurther.com",
@@ -250,5 +250,42 @@
     },
     "asset": "Inventory Finance",
     "network": "kovan"
+  },
+  {
+    "env": "production",
+    "startblock": 10783663,
+    "addresses": {
+      "ROOT_CONTRACT": "0x23e11b3f2cd3d73f68a4a3af436e2ed3459d0260",
+      "TINLAKE_CURRENCY": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "JUNIOR_OPERATOR": "0xC8E0c0DDD09bA807CF745FF84eF712d7e0A1B4DB",
+      "JUNIOR": "0x2Df96F168A25059C445095648CeE440310bD3A12",
+      "JUNIOR_TOKEN": "0x82e904ec8b97dCDd399D00A728e1781BcBdD2Bf4",
+      "SENIOR": "0xF2C43699306DAB17Ec353886272BdFB4f443aD84",
+      "SENIOR_TOKEN": "0x2F2D1a43C53A4fAe45417308401434Cb29Cb5CB5",
+      "SENIOR_OPERATOR": "0x5BdCeF4d70D7Df939cb52be639F6a189423837eE",
+      "DISTRIBUTOR": "0x27b309c6870d8b4FF762d230f0eE112e1C633267",
+      "ASSESSOR": "0x6377737C28921fAb9497e2a9F30fE8147A3BDfE4",
+      "TITLE": "0x0d981ad3ae8C1F7a492d8926a72CA7Bb1634C403",
+      "PILE": "0x3c3B4b2cC7dBC4409563E74a174Ac3C4c4780DfB",
+      "SHELF": "0x3CF4DEecaD850a2B09fc2c8EA223943b57d1d4D2",
+      "CEILING": "0x67Ba167BEbED75cbc7bD6B5E9f7cB7749F5a6A50",
+      "COLLECTOR": "0x5B82276ab1083df2e92E24E4446e65733d71050C",
+      "THRESHOLD": "0x67Ba167BEbED75cbc7bD6B5E9f7cB7749F5a6A50",
+      "PRICE_POOL": "0x450c8539cac30c194A749Bbf071256eAFBb5B812",
+      "NFT_FEED": "0x67Ba167BEbED75cbc7bD6B5E9f7cB7749F5a6A50",
+      "ACTIONS": "0x39e9b206dd1e8f9849f11e8ba6bb045e8321a239",
+      "PROXY_REGISTRY": "0xc9045c815bf123ad12ea75b9a7c579c1e05051f9"
+    },
+    "contractConfig": {
+      "JUNIOR_OPERATOR": "ALLOWANCE_OPERATOR",
+      "SENIOR_OPERATOR": "PROPORTIONAL_OPERATOR"
+    },
+    "name": "Paperchain Series 2",
+    "shortName": "Paperchain 2",
+    "slug": "paperchain-2",
+    "description": "<h4>Asset Originator Details</h4><p>The following information was provided by the Asset Originator.</p><a href=\"https://www.paperchain.io/\" target=\"_blank\"><img src=\"https://storage.googleapis.com/tinlake/pc.png\" width=\"275px\" /></a><p>Paperchain is launching the second Tinlake pool to fund music streaming invoices. We provide an easy and fast way for artists and media companies to access their streaming revenue. Operating at the intersection of media, finance, and technology, Paperchain connects to the largest media streaming platforms and offers creators a non-dilutive funding model via innovative use of media data streams & investment products. We work with Merlin, a collective licensing aggregator that represents thousands of labels worldwide negotiating licensing agreements with leading streaming platforms such as Spotify.</p><h4>Pool Details</h4><p><strong>Asset Originator:</strong> Paperchain Pilot LLC.<br /><strong>Collateral:</strong> Music Streaming Invoices from Spotify<br /><strong>Average Invoice Size:</strong> $25,000<br /><strong>Days Outstanding:</strong> 60-75 days<br /><strong>Issuer:</strong> Paperchain Series 2 LLC, Delaware<p><strong>Contact the Asset Originator</strong><br />Interested in investing or want to learn more?<br /><a href=\"https://www.paperchain.io/\" target=\"_blank\">paperchain.io</a><br /><a href=\"mailto:tinlake@centrifuge.io\" target=\"_blank\">tinlake@centrifuge.io</a></p>",
+    "investHtml": "<p>You will need to get onboarded with the asset originator to start investing in this pool.</p><p>Please contact Paperchain with an email to <a href=\"mailto:tinlake@centrifuge.io\" target=\"_blank\">tinlake@centrifuge.io</a> for further information.</p>",
+    "asset": "Invoice",
+    "network": "mainnet"
   }
 ]
