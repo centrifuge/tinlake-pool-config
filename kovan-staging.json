@@ -1,80 +1,6 @@
 [
   {
     "env": "staging",
-    "startblock": 18594066,
-    "addresses": {
-      "ROOT_CONTRACT": "0xbb53072d054de55d56dbb4ee95840de3262e4097",
-      "TINLAKE_CURRENCY": "0xe689a4f88e332b016f6800259355e23ef6df338a",
-      "JUNIOR_OPERATOR": "0x347147efb7D31a397962C2017521bB0d9Cb9A056",
-      "JUNIOR": "0x43C22a2120cD3e13c8962c0Df694d9F2B4195E9B",
-      "JUNIOR_TOKEN": "0x32b17Afd726dC490a644A2280C2D18D62111C761",
-      "SENIOR": "0xA5d9B0190874b29d824B0d0164dec8B6034d1615",
-      "SENIOR_TOKEN": "0x355611C1398D7d9ACdcf1b7e0cd46CB56AFC7938",
-      "SENIOR_OPERATOR": "0x1Bbfb2e197aF13A6bc938e23A3634ECCfA96B2c7",
-      "DISTRIBUTOR": "0x2E3838C8D8b41F06304a8Cc960617487848a3AE4",
-      "ASSESSOR": "0x8A62a77D9a0Eaf0067a8134cdf3250642ff1dF3C",
-      "TITLE": "0x72C77662E3656c724660709EB993A88b5dcF154B",
-      "PILE": "0xCAd66910788d5344425e30bd665693bd5bb479C4",
-      "SHELF": "0xCcf827238991FC3D5A51067968501A38624F313d",
-      "CEILING": "0xe3a0118028db155daAA553f266Ca18bae8540fd2",
-      "COLLECTOR": "0x6b20B10D0132c8635e90BF7c34A9656dD2e4B7D6",
-      "THRESHOLD": "0xe3a0118028db155daAA553f266Ca18bae8540fd2",
-      "PRICE_POOL": "0xa8B2A43230662e38ad623E0b64E50688fE344217",
-      "NFT_FEED": "0xe3a0118028db155daAA553f266Ca18bae8540fd2",
-      "ACTIONS":"0x60cc4a2868559e513112f0742e6f546d339ea17b",
-      "PROXY_REGISTRY": "0x99a31c86d95e907dcf0001857b8aa83456e746c1"
-    },
-    "contractConfig": {
-      "JUNIOR_OPERATOR": "ALLOWANCE_OPERATOR",
-      "SENIOR_OPERATOR": "PROPORTIONAL_OPERATOR"
-    },
-    "name": "Kovan Staging 1",
-    "slug": "kovan-staging-1",
-    "description": "<h4>Asset Originator Details<\/h4><p>This section displays information provided by the Asset Originator, such as a description of the business model<\/p><h4>Pool Details (Sample Data)<\/h4><p><strong>Asset Originator:<\/strong> Kovan Staging 1 LLC<br \/><strong>Collateral:<\/strong> Simplified invoices<br \/><strong>Average Invoice Size:<\/strong> $1,000<br \/><strong>Maturity Date:<\/strong> 30 day invoices<br \/><strong>Issuer:<\/strong> Kovan Staging 1 LLC<\/p>",
-    "asset": "Invoice",
-    "investHtml": "<p>You will need to get onboarded with the asset originator to start investing in this pool.</p><p>Please contact with an email to <a href=\"mailto:info@example.com\" target=\"_blank\">info@example.com<\/a> for further information.</p>",
-    "network": "kovan"
-  },
-  {
-    "env": "staging",
-    "startblock": 18607297,
-    "addresses": {
-      "ROOT_CONTRACT": "0xc95e8de672d717f7b60bca629f6cc65dd448ddc1",
-      "TINLAKE_CURRENCY": "0xe689a4f88e332b016f6800259355e23ef6df338a",
-      "JUNIOR_OPERATOR": "0x1aDd2f1292c7248764144ddfC4738917B2e98ccF",
-      "JUNIOR": "0x3fE40b9363FD50414FaFc87C4c1475387C9744Fd",
-      "JUNIOR_TOKEN": "0xD4cc7e6f35eCE466CDd86CE14e24c37534A1a8F3",
-      "SENIOR": "0x0122e2480255E4323fA10C1022545743532Ad610",
-      "SENIOR_TOKEN": "0xa02EDc2C7B6B2C7FC4400b62FEC2452ace3a6F8B",
-      "SENIOR_OPERATOR": "0xEcBE7E37d69560d3F0AEA8A10B4a1695617f9FEd",
-      "DISTRIBUTOR": "0x3f534cA0347B6008a7662c30F8a9cE82Ed1b3B0a",
-      "ASSESSOR": "0x76598110EcEcc538a817B6154F645cf37702406f",
-      "TITLE": "0xC0730336867e8fDF3f59e9727C55A3865f947B6a",
-      "PILE": "0x4B2ed13CA3603BaC65De264CFc14A3C03d3C822C",
-      "SHELF": "0xA51672dab1c3061900Ef32600B69E763CA6384BF",
-      "CEILING": "0xe2520CC30be375206127Dcec370f51e664141a92",
-      "COLLECTOR": "0x0361C90b3676A1B0adfc39a474fA0543eAEc36b8",
-      "THRESHOLD": "0xe2520CC30be375206127Dcec370f51e664141a92",
-      "PRICE_POOL": "0xd8283E3ed1f075Bd3108D4CB1e4d8a46c8DD00d1",
-      "NFT_FEED": "0xe2520CC30be375206127Dcec370f51e664141a92",
-      "GOVERNANCE": "0x0a735602a357802f553113f5831fe2fbf2f0e2e0",
-      "MAIN_DEPLOYER": "0xcf3bd950b51b67908aa4f79c56662d963bafe2ee",
-      "ACTIONS":"0x60cc4a2868559e513112f0742e6f546d339ea17b",
-      "PROXY_REGISTRY": "0x99a31c86d95e907dcf0001857b8aa83456e746c1"
-    },
-    "contractConfig": {
-      "JUNIOR_OPERATOR": "ALLOWANCE_OPERATOR",
-      "SENIOR_OPERATOR": "PROPORTIONAL_OPERATOR"
-    },
-    "name": "Kovan Staging 2",
-    "slug": "kovan-staging-2",
-    "description": "<h4>Asset Originator Details<\/h4><p>This section displays information provided by the Asset Originator, such as a description of the business model<\/p><h4>Pool Details (Sample Data)<\/h4><p><strong>Asset Originator:<\/strong> Kovan Staging 2 LLC<br \/><strong>Collateral:<\/strong> Simplified invoices<br \/><strong>Average Invoice Size:<\/strong> $1,000<br \/><strong>Maturity Date:<\/strong> 30 day invoices<br \/><strong>Issuer:<\/strong> Kovan Staging 2 LLC<\/p>",
-    "asset": "Invoice",
-    "investHtml": "<p>You will need to get onboarded with the asset originator to start investing in this pool.</p><p>Please contact with an email to <a href=\"mailto:info@example.com\" target=\"_blank\">info@example.com<\/a> for further information.</p>",
-    "network": "kovan"
-  },
-  {
-    "env": "staging",
     "startblock": 20380418,
     "addresses": {
       "ROOT_CONTRACT": "0x74cc21bbc8bbf19e2ab3e68c810a4316bd715d76",
@@ -96,7 +22,7 @@
       "PRICE_POOL": "0xc63807020f7629F341D7042A9bF12d84355d4D8E",
       "NFT_FEED": "0xc63807020f7629F341D7042A9bF12d84355d4D8E",
       "ACTIONS": "0x60cc4a2868559e513112f0742e6f546d339ea17b",
-      "PROXY_REGISTRY": "0x99a31c86d95e907dcf0001857b8aa83456e746c1"
+      "PROXY_REGISTRY": "0xb0cd959bbbe799ba7d18c7d28008553a7b47a04c"
     },
     "contractConfig": {
       "JUNIOR_OPERATOR": "ALLOWANCE_OPERATOR",
