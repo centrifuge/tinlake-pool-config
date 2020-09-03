@@ -116,7 +116,7 @@
     "shortName": "Upcoming Kovan 1",
     "assetOriginatorName": "Upcoming Kovan Pool",
     "text": "This pool is going to be launched in the future.",
-    "logo": "https://raw.githubusercontent.com/centrifuge/tinlake-pool-config/master/logos/tinlake.png",
+    "logo": "https://storage.googleapis.com/tinlake/tinlake.png",
     "website": "https://tinlake.centrifuge.io/",
     "email": "tinlake@centrifuge.io",
     "details": {
