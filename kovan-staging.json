@@ -51,6 +51,8 @@
       "Average Loan Size": "$1,000",
       "Maturity Date": "30 days"
     },
+    "seniorInterestRate": "1000000003170979198376458650",
+    "minimumJuniorRatio": "200000000000000000000000000",
     "asset": "Invoice",
     "network": "kovan"
   }
