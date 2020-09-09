@@ -28,11 +28,9 @@
       "JUNIOR_OPERATOR": "ALLOWANCE_OPERATOR",
       "SENIOR_OPERATOR": "PROPORTIONAL_OPERATOR"
     },
-    "name": "Kovan NAV Pool 1",
-    "slug": "kovan-nav-pool-1",
+    "name": "Kovan Static NAV Pool 1",
+    "slug": "kovan-static-nav-pool-1",
     "description": "<h4>Asset Originator Details</h4><p>This section displays information provided by the Asset Originator, such as a description of the business model</p><h4>Pool Details (Sample Data)</h4><p><strong>Asset Originator:</strong> Kovan NAV Pool 1 LLC<br /><strong>Collateral:</strong> Simplified invoices<br /><strong>Average Invoice Size:</strong> $1,000<br /><strong>Maturity Date:</strong> 30 day invoices<br /><strong>Issuer:</strong> Kovan NAV Pool 1 LLC</p>",
-    "seniorInterestRate": "1000000003170979198376458650",
-    "minimumJuniorRatio": "200000000000000000000000000",
     "asset": "Invoice",
     "investHtml": "<p>You will need to get onboarded with the asset originator to start investing in this pool.</p><p>Please contact with an email to <a href=\"mailto:info@example.com\" target=\"_blank\">info@example.com</a> for further information.</p>",
     "network": "kovan"
@@ -66,11 +64,9 @@
       "JUNIOR_OPERATOR": "ALLOWANCE_OPERATOR",
       "SENIOR_OPERATOR": "ALLOWANCE_OPERATOR"
     },
-    "name": "Kovan NAV Pool 2",
-    "slug": "kovan-nav-pool-2",
+    "name": "Kovan Static NAV Pool 2",
+    "slug": "kovan-static-nav-pool-2",
     "description": "<h4>Asset Originator Details</h4><p>This section displays information provided by the Asset Originator, such as a description of the business model</p><h4>Pool Details (Sample Data)</h4><p><strong>Asset Originator:</strong> Kovan NAV Pool 2 LLC<br /><strong>Collateral:</strong> Simplified invoices<br /><strong>Average Invoice Size:</strong> $1,000<br /><strong>Maturity Date:</strong> 30 day invoices<br /><strong>Issuer:</strong> Kovan NAV Pool 2 LLC</p>",
-    "seniorInterestRate": "1000000003170979198376458650",
-    "minimumJuniorRatio": "200000000000000000000000000",
     "asset": "Invoice",
     "investHtml": "<p>You will need to get onboarded with the asset originator to start investing in this pool.</p><p>Please contact with an email to <a href=\"mailto:info@example.com\" target=\"_blank\">info@example.com</a> for further information.</p>",
     "network": "kovan"
