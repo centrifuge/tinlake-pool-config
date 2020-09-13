@@ -2,6 +2,7 @@
   {
     "env": "staging",
     "startblock": 20806634,
+    "version": 2,
     "addresses": {
       "ROOT_CONTRACT": "0x382460db48ee1b84b23d7286cfd7d027c27bb885",
       "TINLAKE_CURRENCY": "0xe689a4f88e332b016f6800259355e23ef6df338a",
@@ -38,6 +39,7 @@
   {
     "env": "staging",
     "startblock": 20806806,
+    "version": 2,
     "addresses": {
       "ROOT_CONTRACT": "0x9922c07feb725d6946adb94fd4fd1bbbb3a1dac9",
       "TINLAKE_CURRENCY": "0xe689a4f88e332b016f6800259355e23ef6df338a",
@@ -73,6 +75,42 @@
   },
   {
     "env": "staging",
+    "startblock": 20804382,
+    "version": 3,
+    "addresses": {
+      "ROOT_CONTRACT": "0x6e2133b6c9c853158ca877f7540d99ca8a623e0c",
+      "TINLAKE_CURRENCY": "0xe689a4f88e332b016f6800259355e23ef6df338a",
+      "TITLE": "0xAae269903C020402046FF72881D476232FAd2e10",
+      "PILE": "0xc60D14d4003B7A67B7d0a726aa11e7C9F3680a9e",
+      "SHELF": "0x04334A9bDf561314CCA5ABbd18c632bCF62E97A6",
+      "COLLECTOR": "0x58C7BCe436cD6c07b829C43191437a9cd97f04e3",
+      "FEED": "0xE1E94229a49D6e89537926D29483E736152894B3",
+      "JUNIOR_OPERATOR": "0x9981cF65F8c82cE38840E33e0625aE8cBDEF246e",
+      "SENIOR_OPERATOR": "0x375e071E620d483E78d104160Be98252208Df901",
+      "JUNIOR_TRANCHE": "0x1C255D2E225e3130a0a74Bf5355e2318210EAEe3",
+      "SENIOR_TRANCHE": "0x0f4Ee0d02C98bB4443fF88ffaFD76Fc8aD3D82F4",
+      "JUNIOR_TOKEN": "0x8E52D42d7416026Ec3c5e27171Ce2201E4F12807",
+      "SENIOR_TOKEN": "0xb3d321593469A56BC00Dd9CF21c5c8e1ea75AeDC",
+      "ASSESSOR": "0x4034A9573135b6E70ba7C950650f1748530333bE",
+      "COORDINATOR": "0x3e4254A122BCf92c199CfA1A03Fd061A0df84fa2",
+      "RESERVE": "0x916b2B78a285e6DA1B5954386Aa0A5877cD5A0A1",
+      "ACTIONS": "0x60cc4a2868559e513112f0742e6f546d339ea17b",
+      "PROXY_REGISTRY": "0xb0cd959bbbe799ba7d18c7d28008553a7b47a04c"
+    },
+    "contractConfig": {
+      "JUNIOR_OPERATOR": "ALLOWANCE_OPERATOR",
+      "SENIOR_OPERATOR": "ALLOWANCE_OPERATOR"
+    },
+    "name": "Kovan Revolving Pool 1",
+    "slug": "kovan-revolving-pool-1",
+    "description": "<h4>Asset Originator Details</h4><p>This section displays information provided by the Asset Originator, such as a description of the business model</p><h4>Pool Details (Sample Data)</h4><p><strong>Asset Originator:</strong> Kovan Revolving Pool 1 LLC<br /><strong>Collateral:</strong> Simplified invoices<br /><strong>Average Invoice Size:</strong> $1,000<br /><strong>Maturity Date:</strong> 30 day invoices<br /><strong>Issuer:</strong> Kovan Revolving Pool 1 LLC</p>",
+    "asset": "Invoice",
+    "investHtml": "<p>You will need to get onboarded with the asset originator to start investing in this pool.</p><p>Please contact with an email to <a href=\"mailto:info@example.com\" target=\"_blank\">info@example.com</a> for further information.</p>",
+    "network": "kovan"
+  },
+  {
+    "env": "staging",
+    "version": 2,
     "name": "Upcoming Kovan Pool 1",
     "slug": "upcoming-kovan-pool-1",
     "shortName": "Upcoming Kovan 1",
