@@ -72,6 +72,7 @@
     "description": "<h4>Asset Originator Details</h4><p>This section displays information provided by the Asset Originator, such as a description of the business model</p><h4>Pool Details (Sample Data)</h4><p><strong>Asset Originator:</strong> Kovan Revolving Pool 1 LLC<br /><strong>Collateral:</strong> Simplified invoices<br /><strong>Average Invoice Size:</strong> $1,000<br /><strong>Maturity Date:</strong> 30 day invoices<br /><strong>Issuer:</strong> Kovan Revolving Pool 1 LLC</p>",
     "asset": "Invoice",
     "investHtml": "<p>You will need to get onboarded with the asset originator to start investing in this pool.</p><p>Please contact with an email to <a href=\"mailto:info@example.com\" target=\"_blank\">info@example.com</a> for further information.</p>",
+    "partialRepay": true,
     "network": "kovan"
   },
   {
