@@ -232,6 +232,33 @@
   },
   {
     "env": "production",
+    "startblock": 1,
+    "addresses": {
+      "ROOT_CONTRACT": "0x0",
+      "TINLAKE_CURRENCY": "0x0",
+      "JUNIOR_OPERATOR": "0x0",
+      "JUNIOR": "0x0",
+      "JUNIOR_TOKEN": "0x0",
+      "SENIOR": "0x0",
+      "SENIOR_TOKEN": "0x0",
+      "SENIOR_OPERATOR": "0x0",
+      "DISTRIBUTOR": "0x0",
+      "ASSESSOR": "0x0",
+      "TITLE": "0x0",
+      "PILE": "0x0",
+      "SHELF": "0x0",
+      "CEILING": "0x0",
+      "COLLECTOR": "0x0",
+      "THRESHOLD": "0x0",
+      "PRICE_POOL": "0x0",
+      "NFT_FEED": "0x0",
+      "ACTIONS": "0x0",
+      "PROXY_REGISTRY": "0x0"
+    },
+    "contractConfig": {
+      "JUNIOR_OPERATOR": "ALLOWANCE_OPERATOR",
+      "SENIOR_OPERATOR": "PROPORTIONAL_OPERATOR"
+    },
     "name": "Kickfurther Series 1",
     "shortName": "Kickfurther 1",
     "slug": "kickfurther-1",
@@ -241,7 +268,7 @@
     "website": "https://www.kickfurther.com/",
     "email": "bizdev@centrifuge.io",
     "details": {
-      "Type": "Upcoming revolving pool, late September 2020",
+      "Type": "Revolving pool",
       "Asset Originator": "Kickfurther.com",
       "Issuer": "END_Bridge LLC, Kickfurther Series One LLC",
       "Collateral": "Consignment Inventory Finance",
@@ -254,8 +281,6 @@
         "link": "https://discourse.centrifuge.io/t/community-introduction-kickfurther/218"
       }
     ],
-    "seniorInterestRate": "1000000003170979198376458650",
-    "minimumJuniorRatio": "200000000000000000000000000",
     "asset": "Inventory Finance",
     "network": "kovan"
   },
