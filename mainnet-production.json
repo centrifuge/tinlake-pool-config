@@ -1,6 +1,7 @@
 [
   {
     "env": "production",
+    "version": 2,
     "startblock": 10002000,
     "addresses": {
       "ROOT_CONTRACT": "0xf8b4ef7781ba8e1b3df6370f71d526d00aad1ee2",
@@ -38,6 +39,7 @@
   },
   {
     "env": "production",
+    "version": 2,
     "startblock": 10103234,
     "addresses": {
       "ROOT_CONTRACT": "0x90abc0adb789111b4b865fdb3350b14a6e78794e",
@@ -74,6 +76,7 @@
   },
   {
     "env": "production",
+    "version": 2,
     "startblock": 10304149,
     "addresses": {
       "ROOT_CONTRACT": "0x0b985e7c5811c368528a0fc990455f4b448f7d77",
@@ -111,6 +114,7 @@
   },
   {
     "env": "production",
+    "version": 2,
     "startblock": 10498700,
     "addresses": {
       "ROOT_CONTRACT": "0xeb33ab19d17d62950b16e843005fcdda62d5f551",
@@ -148,6 +152,7 @@
   },
   {
     "env": "production",
+    "version": 2,
     "startblock": 10595436,
     "addresses": {
       "ROOT_CONTRACT": "0xe02d16927c7f73e48dd7aef4c86fa9aaedfe8abf",
@@ -185,6 +190,7 @@
   },
   {
     "env": "production",
+    "version": 2,
     "startblock": 10661341,
     "addresses": {
       "ROOT_CONTRACT": "0xa5caefbaa3902c3567ec2ba650a7ee4b19ea0d28",
@@ -232,6 +238,7 @@
   },
   {
     "env": "production",
+    "version": 3,
     "startblock": 1,
     "addresses": {
       "ROOT_CONTRACT": "0x0",
@@ -283,10 +290,12 @@
       }
     ],
     "asset": "Inventory Finance",
+    "partialRepay": true,
     "network": "kovan"
   },
   {
     "env": "production",
+    "version": 2,
     "startblock": 10783663,
     "addresses": {
       "ROOT_CONTRACT": "0x23e11b3f2cd3d73f68a4a3af436e2ed3459d0260",
