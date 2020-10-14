@@ -32,8 +32,16 @@
     "name": "ConsolFreight Series 1",
     "shortName": "ConsolFreight 1",
     "slug": "consolfreight-1",
-    "description": "<h4>Asset Originator Details</h4><p>The following information was provided by the Asset Originator.</p><a href=\"https://www.consolfreight.io/\" target=\"_blank\"><img src=\"https://ctrf-tk-ppr.s3-us-west-1.amazonaws.com/consolfreight_logo.png\" width=\"275px\" /></a><p>ConsolFreight is launching a Tinlake pool to fund freight forwarding invoices. We are a SaaS freight forwarding technology provider that advances working capital finance to freight forwarders and collects from shippers. Our services expand from offering a trade finance marketplace to procurement of logistics services and digital contract management solutions. The ConsolFreight ecosystem currently counts on several partnerships with renowned freight forwarding networks and has secured more than 600 freight forwarders as exclusive trade lane providers.</p><h4>Pool Details</h4><p><strong>Asset Originator:</strong> Consol Freight LLC<br /><strong>Collateral:</strong> Freight Forwarding Invoices<br /><strong>Average Invoice Size:</strong> $5,000<br /><strong>Maturity Date:</strong> 30 & 45 day invoices<br /><strong>Issuer:</strong> ConsolFreight Pilot LLC</p><p><strong>Interested in investing or want to learn more?</strong><br /><a href=\"https://www.consolfreight.io/\" target=\"_blank\">consolfreight.io</a><br /><a href=\"mailto:messages@consolfreight.com\" target=\"_blank\">messages@consolfreight.com</a></p>",
-    "investHtml": "<p>You will need to get onboarded with the asset originator to start investing in this pool.</p><p>Please contact Consolfreight with an email to <a href=\"mailto:messages@consolfreight.com\" target=\"_blank\">messages@consolfreight.com</a> for further information.</p>",
+    "text": "ConsolFreight is launching a Tinlake pool to fund freight forwarding invoices. We are a SaaS freight forwarding technology provider that advances working capital finance to freight forwarders and collects from shippers. Our services expand from offering a trade finance marketplace to procurement of logistics services and digital contract management solutions. The ConsolFreight ecosystem currently counts on several partnerships with renowned freight forwarding networks and has secured more than 600 freight forwarders as exclusive trade lane providers.",
+    "logo": "https://ctrf-tk-ppr.s3-us-west-1.amazonaws.com/consolfreight_logo.png",
+    "website": "https://www.consolfreight.io/",
+    "details": {
+      "Asset Originator": "Consol Freight LLC",
+      "Collateral": "Freight Forwarding Invoices",
+      "Average Invoice Value": "$5,000",
+      "Maturity Date": "30 & 45 day invoices",
+      "Issuer": "ConsolFreight Pilot LLC"
+    },
     "asset": "Invoice",
     "network": "mainnet"
   },
@@ -69,8 +77,16 @@
     },
     "name": "Paperchain Pilot",
     "slug": "paperchain-pilot",
-    "description": "<h4>Asset Originator Details</h4><p>The following information was provided by the Asset Originator.</p><a href=\"https://www.paperchain.io/\" target=\"_blank\"><img src=\"https://storage.googleapis.com/tinlake/68747470733a2f2f696d616765732e7a656e68756275736572636f6e74656e742e636f6d2f3563393232313830636639633563316133353061373438622f35323365653063322d613739622d343237382d396338642d303731333935323466303265.png\" width=\"275px\" /></a><p>Paperchain is launching a Tinlake pool to fund music streaming revenues. We provide an easy and fast way for artists and media companies to access their streaming revenue. Operating at the intersection of media, finance, and technology, we connect to the largest media streaming platforms and offer creators a non-dilutive funding model via innovative use of media data streams & investment products. We work with Merlin, a collective licensing aggregator that represents thousands of labels worldwide negotiating licensing agreements with leading streaming platforms such as Spotify.</p><h4>Pool Details</h4><p><strong>Asset Originator:</strong> Paperchain Inc.<br /><strong>Collateral:</strong> Music Streaming Invoices from Spotify<br /><strong>Average Invoice Size:</strong> $25,000<br /><strong>Maturity Date:</strong> 60 days invoices<br /><strong>Issuer:</strong> Paperchain Inc, Delaware<p><strong>Interested in investing or want to learn more?</strong><br /><a href=\"https://www.paperchain.io/\" target=\"_blank\">paperchain.io</a><br /><a href=\"mailto:info@paperchain.io\" target=\"_blank\">info@paperchain.io</a></p>",
-    "investHtml": "<p>You will need to get onboarded with the asset originator to start investing in this pool.</p><p>Please contact Paperchain with an email to <a href=\"mailto:info@paperchain.io\" target=\"_blank\">info@paperchain.io</a> for further information.</p>",
+    "text": "Paperchain is launching a Tinlake pool to fund music streaming revenues. We provide an easy and fast way for artists and media companies to access their streaming revenue. Operating at the intersection of media, finance, and technology, we connect to the largest media streaming platforms and offer creators a non-dilutive funding model via innovative use of media data streams & investment products. We work with Merlin, a collective licensing aggregator that represents thousands of labels worldwide negotiating licensing agreements with leading streaming platforms such as Spotify.",
+    "logo": "https://storage.googleapis.com/tinlake/pc.png",
+    "website": "https://www.paperchain.io/",
+    "details": {
+      "Asset Originator": "Paperchain Inc.",
+      "Collateral": "Music Streaming Invoices from Spotify",
+      "Average Invoice Value": "$25,000",
+      "Maturity Date": "60 day invoices",
+      "Issuer": "Paperchain Inc, Delaware"
+    },
     "asset": "Invoice",
     "network": "mainnet"
   },
@@ -107,8 +123,16 @@
     "name": "ConsolFreight Series 2",
     "shortName": "ConsolFreight 2",
     "slug": "consolfreight-2",
-    "description": "<h4>Asset Originator Details</h4><p>The following information was provided by the Asset Originator.</p><a href=\"https://www.consolfreight.io/\" target=\"_blank\"><img src=\"https://ctrf-tk-ppr.s3-us-west-1.amazonaws.com/consolfreight_logo.png\" width=\"275px\" /></a><p>ConsolFreight is launching a Tinlake pool to fund freight forwarding invoices. We are a SaaS freight forwarding technology provider that advances working capital finance to freight forwarders and collects from shippers. Our services expand from offering a trade finance marketplace to procurement of logistics services and digital contract management solutions. The ConsolFreight ecosystem currently counts on several partnerships with renowned freight forwarding networks and has secured more than 600 freight forwarders as exclusive trade lane providers.</p><h4>Pool Details</h4><p><strong>Asset Originator:</strong> Consol Freight LLC<br /><strong>Collateral:</strong> Freight Forwarding Invoices<br /><strong>Average Invoice Size:</strong> $5,000<br /><strong>Maturity Date:</strong> 30 & 45 day invoices<br /><strong>Issuer:</strong> ConsolFreight Pilot LLC</p><p><strong>Interested in investing or want to learn more?</strong><br /><a href=\"https://www.consolfreight.io/\" target=\"_blank\">consolfreight.io</a><br /><a href=\"mailto:messages@consolfreight.com\" target=\"_blank\">messages@consolfreight.com</a></p>",
-    "investHtml": "<p>You will need to get onboarded with the asset originator to start investing in this pool.</p><p>Please contact Consolfreight with an email to <a href=\"mailto:messages@consolfreight.com\" target=\"_blank\">messages@consolfreight.com</a> for further information.</p>",
+    "text": "ConsolFreight is launching a Tinlake pool to fund freight forwarding invoices. We are a SaaS freight forwarding technology provider that advances working capital finance to freight forwarders and collects from shippers. Our services expand from offering a trade finance marketplace to procurement of logistics services and digital contract management solutions. The ConsolFreight ecosystem currently counts on several partnerships with renowned freight forwarding networks and has secured more than 600 freight forwarders as exclusive trade lane providers.",
+    "logo": "https://ctrf-tk-ppr.s3-us-west-1.amazonaws.com/consolfreight_logo.png",
+    "website": "https://www.consolfreight.io/",
+    "details": {
+      "Asset Originator": "Consol Freight LLC",
+      "Collateral": "Freight Forwarding Invoices",
+      "Average Invoice Value": "$5,000",
+      "Maturity Date": "30 & 45 day invoices",
+      "Issuer": "ConsolFreight Pilot LLC"
+    },
     "asset": "Invoice",
     "network": "mainnet"
   },
@@ -145,8 +169,16 @@
     "name": "New Silver 1",
     "shortName": "New Silver 1",
     "slug": "new-silver-1",
-    "description": "<h4>Asset Originator Details</h4><p>The following information was provided by the Asset Originator.</p><a href=\"https://www.newsilver.com/\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/centrifuge/tinlake-pool-config/master/logos/ns.png\" width=\"275px\" /></a><p>New Silver (NS)  is launching a Tinlake pool to finance a portfolio of twelve to twenty four month real estate bridge loans that are extended to real estate developers. NS is a technology enabled non-bank direct lender providing real estate-backed re-financing and “renovate and rehab” financing for the United States on single-family residential and small balance commercial assets. NS primarily targets significant value-add transactions in non-rural areas in the North Eastern US.</p><h4>Pool Details</h4><p><strong>Asset Originator:</strong> New Silver Lending LLC<br /><strong>Collateral:</strong> US-based residential real estate<br /><strong>Average Financing Size:</strong> $145,000<br /><strong>Maturity Date:</strong> 12 to 24 months<br /><strong>Issuer:</strong> New Silver Pilot LLC</p><p><strong>Interested in investing or want to learn more?</strong><br /><a href=\"https://www.newsilver.com/\" target=\"_blank\">newsilver.com</a><br /><a href=\"mailto:sales@newsilver.com\" target=\"_blank\">sales@newsilver.com</a></p>",
-    "investHtml": "<p>You will need to get onboarded with the asset originator to start investing in this pool.</p><p>Please contact New Silver with an email to <a href=\"mailto:sales@newsilver.com\" target=\"_blank\">sales@newsilver.com</a> for further information.</p>",
+    "text": "New Silver (NS) is launching a Tinlake pool to finance a portfolio of twelve to twenty four month real estate bridge loans that are extended to real estate developers. NS is a technology enabled non-bank direct lender providing real estate-backed re-financing and “renovate and rehab” financing for the United States on single-family residential and small balance commercial assets. NS primarily targets significant value-add transactions in non-rural areas in the North Eastern US.",
+    "logo": "https://raw.githubusercontent.com/centrifuge/tinlake-pool-config/master/logos/ns.png",
+    "website": "https://www.newsilver.com/",
+    "details": {
+      "Asset Originator": "New Silver Lending LLC",
+      "Collateral": "US-based residential real estate",
+      "Average Financing Value": "$145,000",
+      "Maturity Date": "12 to 24 months",
+      "Issuer": "New Silver Pilot LLC"
+    },
     "asset": "Real estate bridge loans",
     "network": "mainnet"
   },
@@ -183,8 +215,18 @@
     "name": "ConsolFreight Series 3",
     "shortName": "ConsolFreight 3",
     "slug": "consolfreight-3",
-    "description": "<h4>Asset Originator Details</h4><p>The following information was provided by the Asset Originator.</p><a href=\"https://www.consolfreight.io/\" target=\"_blank\"><img src=\"https://ctrf-tk-ppr.s3-us-west-1.amazonaws.com/consolfreight_logo.png\" width=\"275px\" /></a><p>ConsolFreight is launching a Tinlake pool to fund a combined pool of trade finance transactions and freight forwarding invoices. We are a Saas freight forwarding technology provider that advances working capital finance to stakeholders involved in international trading of goods and services. For the trade finance transactions we are advancing capital to shippers and collecting from the buyers. When financing freight forwarding invoices we will advance funds to freight forwarders and collect from shippers. Our services expand from offering a trade finance marketplace to procurement of logistics services and digital contract management solutions. The ConsolFreight ecosystem currently counts on several partnerships with renowned freight forwarding networks and has secured more than 600 freight forwarders as exclusive trade lane providers.</p><h4>Pool Details</h4><p><strong>Asset Originator:</strong> Consol Freight LLC<br /><strong>Collateral:</strong> Cargo & Freight Forwarding Invoices<br /><strong>Average Cargo Value:</strong> $78,000<br /><strong>Average Freight Invoice Value:</strong> $5,000<br /><strong>Days Outstanding:</strong> 30 to 45 days<br /><strong>Issuer:</strong> ConsolFreight Pilot LLC</p><p><strong>Interested in investing or want to learn more?</strong><br /><a href=\"https://www.consolfreight.io/\" target=\"_blank\">consolfreight.io</a><br /><a href=\"mailto:messages@consolfreight.com\" target=\"_blank\">messages@consolfreight.com</a></p>",
-    "investHtml": "<p>You will need to get onboarded with the asset originator to start investing in this pool.</p><p>Please contact Consolfreight with an email to <a href=\"mailto:messages@consolfreight.com\" target=\"_blank\">messages@consolfreight.com</a> for further information.</p>",
+    "text": "ConsolFreight is launching a Tinlake pool to fund a combined pool of trade finance transactions and freight forwarding invoices. We are a Saas freight forwarding technology provider that advances working capital finance to stakeholders involved in international trading of goods and services. For the trade finance transactions we are advancing capital to shippers and collecting from the buyers. When financing freight forwarding invoices we will advance funds to freight forwarders and collect from shippers. Our services expand from offering a trade finance marketplace to procurement of logistics services and digital contract management solutions. The ConsolFreight ecosystem currently counts on several partnerships with renowned freight forwarding networks and has secured more than 600 freight forwarders as exclusive trade lane providers.",
+    "logo": "https://ctrf-tk-ppr.s3-us-west-1.amazonaws.com/consolfreight_logo.png",
+    "website": "https://www.consolfreight.io/",
+    "details": {
+      "Asset Originator": "Consol Freight LLC",
+      "Collateral": "Cargo & Freight Forwarding Invoices",
+      "Average Cargo Value": "$78,000",
+      "Average Freight Invoice Value": "$5,000",
+      "Days Outstanding": "30 to 45 days",
+      "Issuer": "ConsolFreight Pilot LLC",
+      "Maturity Date": "1 to 12 months"
+    },
     "asset": "Invoice & Cargo",
     "network": "mainnet"
   },
@@ -221,11 +263,9 @@
     "name": "Harbor Trade Credit Series 1",
     "shortName": "Harbor Trade 1",
     "slug": "harbor-trade-1",
-    "assetOriginatorName": "us",
     "text": "Harbor is a fintech firm focused on Supply Chain Finance (SCF) and working capital solutions to improve the cash conversion cycle. Harbor’s trade payable financing programs allow for early payments to suppliers so that buyers can optimize their own liquidity through trade credit. Harbor is launching Harbor Trade Credit Series One (HTC1), a Tinlake pool to finance a shipment of flight simulator hardware devices from a manufacturer in China (Ryder Industries) to the designer/distributor (Snakebyte), which will sell this product to many of the leading video game hardware retailers including Amazon, Walmart, and Gamestop. Harbor’s counterparty will be Snakebyte, which will pay in 60 days.",
     "logo": "https://raw.githubusercontent.com/centrifuge/tinlake-pool-config/master/logos/htc.png",
     "website": "https://harbortradecredit.com/",
-    "email": "tinlake@centrifuge.io",
     "details": {
       "Asset Originator": "Harbor Trade Credit, LLC",
       "Issuer": "Harbor Trade Credit Series LLC",
@@ -242,11 +282,9 @@
     "name": "Kickfurther Series 1",
     "shortName": "Kickfurther 1",
     "slug": "kickfurther-1",
-    "assetOriginatorName": "Kickfurther.com",
     "text": "Kickfurther provides consignment inventory finance to eCommerce and retail brands (“Brand”). Kickfurther’s marketplace matches Brands that need capital to purchase inventory with a community of buyers (“Buyers”) who are willing to purchase inventory on consignment (a “Co-Op”) in exchange for a participation in the profits upon sale. Kickfurther was launched in 2014 and (as of August 28, 2020) has helped raise over $48 million for over 895 business Co-Ops with funding from over 21k Buyers and over 70% repeat business. Kickfurther Series One LLC will take a percentage of every deal listed on the Kickfurther platform.",
     "logo": "https://storage.googleapis.com/tinlake/kickfurther.png",
     "website": "https://www.kickfurther.com/",
-    "email": "bizdev@centrifuge.io",
     "details": {
       "Type": "Upcoming revolving pool, late September 2020",
       "Asset Originator": "Kickfurther.com",
@@ -255,12 +293,7 @@
       "Average Financing Size": "$101,000",
       "Maturity Date": "1 to 12 months"
     },
-    "additionalContactInfo": [
-      {
-        "label": "Kickfurther's Discourse",
-        "link": "https://discourse.centrifuge.io/t/community-introduction-kickfurther/218"
-      }
-    ],
+    "discourseLink": "https://discourse.centrifuge.io/t/community-introduction-kickfurther/218",
     "seniorInterestRate": "1000000003170979198376458650",
     "minimumJuniorRatio": "200000000000000000000000000",
     "asset": "Inventory Finance",
@@ -299,8 +332,16 @@
     "name": "Paperchain Series 2",
     "shortName": "Paperchain 2",
     "slug": "paperchain-2",
-    "description": "<h4>Asset Originator Details</h4><p>The following information was provided by the Asset Originator.</p><a href=\"https://www.paperchain.io/\" target=\"_blank\"><img src=\"https://storage.googleapis.com/tinlake/pc.png\" width=\"275px\" /></a><p>Paperchain is launching the second Tinlake pool to fund music streaming invoices. We provide an easy and fast way for artists and media companies to access their streaming revenue. Operating at the intersection of media, finance, and technology, Paperchain connects to the largest media streaming platforms and offers creators a non-dilutive funding model via innovative use of media data streams & investment products. We work with Merlin, a collective licensing aggregator that represents thousands of labels worldwide negotiating licensing agreements with leading streaming platforms such as Spotify.</p><h4>Pool Details</h4><p><strong>Asset Originator:</strong> Paperchain Pilot LLC.<br /><strong>Collateral:</strong> Music Streaming Invoices from Spotify<br /><strong>Average Invoice Size:</strong> $25,000<br /><strong>Days Outstanding:</strong> 60-75 days<br /><strong>Issuer:</strong> Paperchain Series 2 LLC, Delaware<p><strong>Interested in investing or want to learn more?</strong><br /><a href=\"https://www.paperchain.io/\" target=\"_blank\">paperchain.io</a><br /><a href=\"mailto:tinlake@centrifuge.io\" target=\"_blank\">tinlake@centrifuge.io</a></p>",
-    "investHtml": "<p>You will need to get onboarded with the asset originator to start investing in this pool.</p><p>Please contact Paperchain with an email to <a href=\"mailto:tinlake@centrifuge.io\" target=\"_blank\">tinlake@centrifuge.io</a> for further information.</p>",
+    "text": "Paperchain is launching the second Tinlake pool to fund music streaming invoices. We provide an easy and fast way for artists and media companies to access their streaming revenue. Operating at the intersection of media, finance, and technology, Paperchain connects to the largest media streaming platforms and offers creators a non-dilutive funding model via innovative use of media data streams & investment products. We work with Merlin, a collective licensing aggregator that represents thousands of labels worldwide negotiating licensing agreements with leading streaming platforms such as Spotify.",
+    "logo": "https://storage.googleapis.com/tinlake/pc.png",
+    "website": "https://www.paperchain.io/",
+    "details": {
+      "Asset Originator": "Paperchain Pilot LLC.",
+      "Collateral": "Music Streaming Invoices from Spotify",
+      "Average Invoice Value": "$25,000",
+      "Days Outstanding": "60-75 days",
+      "Issuer": "Paperchain Series 2 LLC, Delaware"
+    },
     "asset": "Invoice",
     "network": "mainnet"
   }
