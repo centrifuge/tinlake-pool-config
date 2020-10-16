@@ -31,9 +31,19 @@
     },
     "name": "Kovan Static NAV Pool 1",
     "slug": "kovan-static-nav-pool-1",
-    "description": "<h4>Asset Originator Details</h4><p>This section displays information provided by the Asset Originator, such as a description of the business model</p><h4>Pool Details (Sample Data)</h4><p><strong>Asset Originator:</strong> Kovan NAV Pool 1 LLC<br /><strong>Collateral:</strong> Simplified invoices<br /><strong>Average Invoice Size:</strong> $1,000<br /><strong>Maturity Date:</strong> 30 day invoices<br /><strong>Issuer:</strong> Kovan NAV Pool 1 LLC</p>",
+    "text": "This section displays information provided by the Asset Originator, such as a description of the business model.",
+    "logo": "https://storage.googleapis.com/tinlake/tinlake.png",
+    "website": "https://tinlake.centrifuge.io/",
+    "email": "tinlake@centrifuge.io",
+    "details": {
+      "Asset Originator": "Kovan NAV Pool 1 LLC",
+      "Collateral": "Simplified invoices",
+      "Average Invoice Size": "$1,000",
+      "Maturity Date": "30 day invoices",
+      "Issuer": "Kovan NAV Pool 1 LLC"
+    },
+    "discourseLink": "https://discourse.centrifuge.io/",
     "asset": "Invoice",
-    "investHtml": "<p>You will need to get onboarded with the asset originator to start investing in this pool.</p><p>Please contact with an email to <a href=\"mailto:info@example.com\" target=\"_blank\">info@example.com</a> for further information.</p>",
     "network": "kovan"
   },
   {
@@ -65,9 +75,19 @@
     },
     "name": "Kovan Revolving Pool 1",
     "slug": "kovan-revolving-pool-1",
-    "description": "<h4>Asset Originator Details</h4><p>This section displays information provided by the Asset Originator, such as a description of the business model</p><h4>Pool Details (Sample Data)</h4><p><strong>Asset Originator:</strong> Kovan Revolving Pool 1 LLC<br /><strong>Collateral:</strong> Simplified invoices<br /><strong>Average Invoice Size:</strong> $1,000<br /><strong>Maturity Date:</strong> 30 day invoices<br /><strong>Issuer:</strong> Kovan Revolving Pool 1 LLC</p>",
+    "text": "This section displays information provided by the Asset Originator, such as a description of the business model.",
+    "logo": "https://storage.googleapis.com/tinlake/tinlake.png",
+    "website": "https://tinlake.centrifuge.io/",
+    "email": "tinlake@centrifuge.io",
+    "details": {
+      "Asset Originator": "Kovan Revolving Pool 1 LLC",
+      "Collateral": "Simplified invoices",
+      "Average Invoice Size": "$1,000",
+      "Maturity Date": "30 day invoices",
+      "Issuer": "Kovan Revolving Pool 1 LLC"
+    },
+    "discourseLink": "https://discourse.centrifuge.io/",
     "asset": "Invoice",
-    "investHtml": "<p>You will need to get onboarded with the asset originator to start investing in this pool.</p><p>Please contact with an email to <a href=\"mailto:info@example.com\" target=\"_blank\">info@example.com</a> for further information.</p>",
     "partialRepay": true,
     "securitizeId": "kickfurther",
     "network": "kovan"
@@ -89,6 +109,7 @@
       "Average Loan Size": "$1,000",
       "Maturity Date": "30 days"
     },
+    "discourseLink": "https://discourse.centrifuge.io/",
     "seniorInterestRate": "1000000003170979198376458650",
     "minimumJuniorRatio": "200000000000000000000000000",
     "asset": "Invoice",
