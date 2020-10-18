@@ -1,8 +1,8 @@
 {
   "name": "tinlake-pool-config",
   "version": "1.0.0",
-  "description": "package containing config files for tinlake pools",
-  "main": "index.js",
+  "description": "package containing metadata for tinlake pools",
+  "main": "js/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/centrifuge/tinlake-config.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "AGPL",
   "bugs": {
     "url": "https://github.com/centrifuge/tinlake-config/issues"
   },

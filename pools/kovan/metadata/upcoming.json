@@ -1,0 +1,22 @@
+{
+  "env": "staging",
+  "version": 2,
+  "name": "Upcoming Kovan Pool 1",
+  "slug": "upcoming-kovan-pool-1",
+  "shortName": "Upcoming Kovan 1",
+  "assetOriginatorName": "Upcoming Kovan Pool",
+  "text": "This pool is going to be launched in the future.",
+  "logo": "https://storage.googleapis.com/tinlake/tinlake.png",
+  "website": "https://tinlake.centrifuge.io/",
+  "email": "tinlake@centrifuge.io",
+  "details": {
+    "Asset Originator": "Upcoming Kovan Pool",
+    "Collateral": "Invoice",
+    "Average Loan Size": "$1,000",
+    "Maturity Date": "30 days"
+  },
+  "seniorInterestRate": "1000000003170979198376458650",
+  "minimumJuniorRatio": "200000000000000000000000000",
+  "asset": "Invoice",
+  "network": "kovan"
+}
