@@ -9,4 +9,4 @@ POOL_METADATA="$BASE_DIR/pools/$NETWORK/metadata/$1.json"
 POOL_SLUG="\"$(cat $POOL_METADATA | jq -r ".slug")\""
 METADATA_HASH="\"$(pool pin-file $POOL_METADATA)\""
 
-#seth send $(pool --registry-address) 'file(address, bool, string, string)' $1 $LIVE $POOL_SLUG $METADATA_HASH
+seth send $(pool --registry-address) 'file(address, bool, string, string)' $1 $LIVE $POOL_SLUG $METADATA_HASH
