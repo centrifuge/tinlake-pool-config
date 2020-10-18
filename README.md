@@ -11,6 +11,28 @@ This repo stores pool metadata of active tinlake pools along with an on chain re
 The registry keeps track of a list of addresses along with their short name and pool metadata IPFS hash.
 
 ### `pool` CLI
+
+
+```
+Usage: pool <command> [<args>]
+   or: pool help <command>
+
+Update pool metadata on chain and on IPFS
+
+Special commands:
+
+   --registry-address  prints current registry address
+
+Commands:
+
+   check-registry  check if the onchain registry needs an update
+   help            print help about pool(1) or one of its subcommands
+   list            list available pools locally
+   update          update pool metadata
+
+Report bugs to <https://github.com/centrifuge/tinlake-pools-config>.
+```
+
 ### Deployment
 To create a new pool registry, deploy it with:
 ```
