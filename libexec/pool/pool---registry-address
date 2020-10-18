@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+### pool---registry-address -- prints current registry address
+## Usage: pool --registry-address
+
+REGISTRY_CONFIG=$(cat $POOL_CONFIG | jq ".$NETWORK")
+echo $REGISTRY_CONFIG | jq -r ".registry"
+

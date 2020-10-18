@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+### pool-check-registry -- check if the onchain registry needs an update
+## Usage: pool check-registry <root>
+
+POOL_METADATA="$BASE_DIR/pools/$NETWORK/metadata/$1.json"
+POOL_SLUG="$(cat $POOL_METADATA | jq -r ".slug")"
+METADATA_HASH="$(pool pin-file $POOL_METADATA)"
+DATA=$(seth call $(pool --registry-address) 'find(address)(bool, string, string)' $1 2> /dev/null)
+[[ $DATA ]] || $(echo "Pool not found. Likely an incorrect address or it has not been pushed yet." >> /dev/stderr && exit)
+POOL_DATA=($(echo $DATA | tr " " "\n"))
+
+[[ ${POOL_DATA[0]} == "true" ]] && [[ ${POOL_DATA[1]} == $POOL_SLUG ]] && [[ ${POOL_DATA[2]} == $METADATA_HASH ]] && (echo "up to date" && exit) || echo "out of sync"

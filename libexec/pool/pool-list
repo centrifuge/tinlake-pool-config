@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+### pool-list -- list available pools locally
+## Usage: pool list [--check]
+
+for i in "$@"; do
+  case $i in
+    --check)
+      CHECK=yes
+      shift
+      ;;
+    *)
+      shift
+      set -- "$@" "$i"
+      ;;
+  esac
+done
+
+POOL_METADATA="$BASE_DIR/pools/$NETWORK/metadata/0x*.json"
+for p in $POOL_METADATA; do
+  META=$(cat $p)
+  ROOT=$(echo $META | jq -r ".addresses.ROOT_CONTRACT")
+  UPDATE=$([[ $CHECK == "yes" ]] && pool check-registry $ROOT)
+  echo "$ROOT $(echo $META | jq -r ".slug") $UPDATE"
+done

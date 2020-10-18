@@ -1,0 +1,36 @@
+#!/usr/bin/env node
+// pool-pin-file -- upload and pin file using pinata
+// Usage: pool pin-file <path>
+const process = require('process');
+const fs = require('fs');
+const pinataSDK = require('@pinata/sdk');
+const execSync = require('child_process').execSync;
+
+const pinata = pinataSDK(process.env['PINATA_API_KEY'], process.env['PINATA_SECRET_KEY']);
+if (process.argv.length < 3) {
+  console.error("Missing file argument");
+  process.exit(1);
+}
+
+const readableStreamForFile = fs.createReadStream(process.argv[2]);
+
+const chain = execSync('seth chain').toString().slice(0,-1);
+const registryAddr = execSync('pool --registry-address').toString().slice(0, -1);
+const fileName = `${chain}-${registryAddr}-${process.argv[2]}`;
+
+const options = {
+    pinataMetadata: {
+        name: fileName,
+    },
+    pinataOptions: {
+        cidVersion: 0
+    }
+};
+
+pinata.pinFileToIPFS(readableStreamForFile, options).then((result) => {
+    console.log(result.IpfsHash);
+    //console.log(`View: https://gateway.pinata.cloud/ipfs/${result.IpfsHash}`);
+}).catch((err) => {
+    console.log(err);
+    process.exit(1);
+});

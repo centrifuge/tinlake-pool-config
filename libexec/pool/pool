@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+### pool -- command-line util to manage pool metadata
+### Usage: pool <command> [<args>]
+###    or: pool help <command>
+###
+### Update pool metadata on chain and on IPFS
+###
+
+export BASE_DIR="${BASE_DIR:-"$(cd "${0%/*}"&&pwd)/../.."}"
+export POOL_CONFIG="${POOL_CONFIG:-"$BASE_DIR/config.json"}"
+export NETWORK=${NETWORK:-$(seth chain)}
+
+set -e
+
+if [[ $2 = --help ]]; then
+  exec "${0##*/}" help -- "$1"
+elif [[ $1 = -* ]] && command -v "${0##*/}-$1" &>/dev/null; then
+  exec "${0##*/}-$1" "${@:2}"
+fi
+
+"${0##*/}-${1-help}" "${@:2}"
