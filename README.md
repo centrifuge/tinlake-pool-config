@@ -18,7 +18,7 @@ pools/ # all pool data
 ## Setup
 1) Install dependencies with `npm install`
 2) Get an API key on pinata and set the env variables `PINATA_API_KEY` and `PINATA_SECRET_KEY`
-3) Set the `dapp` typical env variables (`ETH_RCP_URL`,
+3) Set the `dapp` typical env variables (`ETH_RCP_URL`, `ETH_FROM`, `ETH_KEYSTORE`, `ETH_PASSWORD`)
 
 ## `pool` CLI
 ```
@@ -38,7 +38,7 @@ Commands:
    list            list available pools locally
    update          update pool metadata
 
-Report bugs to <https://github.com/centrifuge/tinlake-pools-config>.
+Report bugs to <https://github.com/centrifuge/tinlake-pool-config>.
 ```
 
 ## PoolRegistry

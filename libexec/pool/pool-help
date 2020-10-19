@@ -2,7 +2,7 @@
 ### pool-help -- print help about pool(1) or one of its subcommands
 ### Usage: pool help [<command>]
 
-BUGS=https://github.com/centrifuge/tinlake-pools-config
+BUGS=https://github.com/centrifuge/tinlake-pool-config
 
 name=pool
 cmd=${1##*-}
