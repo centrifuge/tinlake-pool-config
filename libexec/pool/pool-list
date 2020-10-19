@@ -15,10 +15,16 @@ for i in "$@"; do
   esac
 done
 
+RED='\033[1;33m'
+GREEN='\033[0;32m'
+NC='\033[0m' # No Color
+
 POOL_METADATA="$BASE_DIR/pools/$NETWORK/metadata/0x*.json"
 for p in $POOL_METADATA; do
   META=$(cat $p)
   ROOT=$(echo $META | jq -r ".addresses.ROOT_CONTRACT")
-  UPDATE=$([[ $CHECK == "yes" ]] && pool check-registry $ROOT)
-  echo "$ROOT $(echo $META | jq -r ".slug") $UPDATE"
+  UPDATE=$([[ $CHECK == "yes" ]] && pool check-registry $ROOT 2> /dev/null)
+  [[ $UPDATE == "out of sync" ]] && echo -e -n "${RED}[ UPDATE ]${NC} "
+  [[ $UPDATE == "up to date" ]] && echo -e -n "${GREEN}[   OK   ]${NC} "
+  echo "$ROOT $(echo $META | jq -r ".slug")"
 done

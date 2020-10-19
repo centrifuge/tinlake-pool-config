@@ -2,6 +2,15 @@
 ### pool-check-registry -- check if the onchain registry needs an update
 ## Usage: pool check-registry <root>
 
+display_usage() {
+    echo "Usage: pool check-registry <root>"
+}
+
+if [ $# -lt 1 ]; then
+    display_usage
+    exit 1
+fi
+
 POOL_METADATA="$BASE_DIR/pools/$NETWORK/metadata/$1.json"
 POOL_SLUG="$(cat $POOL_METADATA | jq -r ".slug")"
 METADATA_HASH="$(pool pin-file $POOL_METADATA)"
