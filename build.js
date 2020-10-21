@@ -14,9 +14,13 @@ function loadMetadata(folder) {
 const kovanPools = __dirname + '/pools/kovan/metadata/'
 const mainnetProduction = require('./mainnet-production.json');
 
-const poolConfigs = {
+const data = "module.exports = "+JSON.stringify({
   kovanStaging: loadMetadata(kovanPools),
   mainnetProduction
-}
-console.log(poolConfigs)
-module.exports = poolConfigs
+})+";";
+
+fs.writeFile(__dirname + '/out/index.js', data, (err) => {
+    if (err) {
+        throw err;
+    }
+});

@@ -2,9 +2,10 @@
   "name": "tinlake-pool-config",
   "version": "1.0.0",
   "description": "package containing metadata for tinlake pools",
-  "main": "js/index.js",
+  "main": "out/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "mkdir -p out/ && node build.js",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
