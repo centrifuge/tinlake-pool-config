@@ -1,12 +1,32 @@
 #!/usr/bin/env bash
 ### pool-update -- update pool metadata
-## Usage: pool update <root>
+## Usage: pool update <root> [--skip-check] [--calldata]
+##
+## --calldata   only returns calldata instead of submitting the update.
+##
+for i in "$@"; do
+  case $i in
+    --calldata)
+      CALLDATA=yes
+      shift
+      ;;
+    --skip-check)
+      SKIP_CHECK=yes
+      shift
+      ;;
+    *)
+      shift
+      set -- "$@" "$i"
+      ;;
+  esac
+done
 
-[[ $(pool check-registry $1) == "up to date" ]] && echo "up to date" && exit
+[[ $SKIP_CHECK != "yes" ]] && [[ $(pool check-registry $1) == "up to date" ]] && echo "up to date" && exit
 
 LIVE=true
 POOL_METADATA="$BASE_DIR/pools/$NETWORK/metadata/$1.json"
 POOL_SLUG="\"$(cat $POOL_METADATA | jq -r ".slug")\""
 METADATA_HASH="\"$(pool pin-file $POOL_METADATA)\""
 
+[[ $CALLDATA == "yes" ]] && seth calldata 'file(address, bool, string, string)' $1 $LIVE $POOL_SLUG $METADATA_HASH && exit
 seth send $(pool --registry-address) 'file(address, bool, string, string)' $1 $LIVE $POOL_SLUG $METADATA_HASH

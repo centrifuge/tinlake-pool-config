@@ -1,4 +1,7 @@
 {
+  "mainnet": {
+     "registry": "0xddf1c516cf87126c6c610b52fd8d609e67fb6033"
+  },
   "kovan": {
      "registry": "0x12880985fa4e03187df7cff2170ddbff4229319c"
   }
