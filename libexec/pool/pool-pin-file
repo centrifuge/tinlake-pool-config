@@ -5,6 +5,7 @@ const process = require('process');
 const fs = require('fs');
 const pinataSDK = require('@pinata/sdk');
 const execSync = require('child_process').execSync;
+const fetch = require('node-fetch');
 
 const pinata = pinataSDK(process.env['PINATA_API_KEY'], process.env['PINATA_SECRET_KEY']);
 if (process.argv.length < 3) {
@@ -29,8 +30,11 @@ const options = {
 
 pinata.pinFileToIPFS(readableStreamForFile, options).then((result) => {
     console.log(result.IpfsHash);
-    //console.log(`View: https://gateway.pinata.cloud/ipfs/${result.IpfsHash}`);
-}).catch((err) => {
-    console.log(err);
+    return fetch(`https://api.thegraph.com/ipfs/api/v0/pin/add?arg=${result.IpfsHash}`,
+  { method:"POST" });
+}).then(res => console.log(res)
+).catch((err) => {
+    console.err(err);
     process.exit(1);
 });
+
